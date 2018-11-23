@@ -20,6 +20,14 @@ namespace IoC_Container
         private bool isSingletonMode = false;
         private Stack<Type> trace = new Stack<Type>();
 
+        private Injector() { }
+
+        /// <summary>
+        /// Create an instance of the IoC Container.
+        /// </summary>
+        /// <returns></returns>
+        public static Injector CreateInstance() => new Injector();
+
         /// <summary>
         /// Register types.
         /// </summary>

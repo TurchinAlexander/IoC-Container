@@ -8,7 +8,7 @@ namespace IoC_Container.UnitTests
     [TestFixture]
     public class InjectorTests
     {
-        Injector injector = new Injector();
+        Injector injector = Injector.CreateInstance();
 
         [Test]
         public void Inject_ConcreteClass_ReturnIntance()
