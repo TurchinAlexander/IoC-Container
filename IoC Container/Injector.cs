@@ -83,14 +83,14 @@ namespace IoC_Container
 
         private object ResolveParameter(Type type)
         {
-            if (!this.registeredTypes.ContainsKey(type))
-            {
-                throw new InvalidOperationException($"Here is no implementation for {nameof(type)}");
-            }
-
             if (type.GetType().IsValueType)
             {
                 return Activator.CreateInstance(type);
+            }
+
+            if (!this.registeredTypes.ContainsKey(type))
+            {
+                throw new InvalidOperationException($"Here is no implementation for {nameof(type)}");
             }
 
             var instance = this.TryGetInstanceIfSingleton(type);
@@ -151,7 +151,6 @@ namespace IoC_Container
            type.GetConstructors()
                .OrderByDescending(c => c.GetParameters().Length)
                .FirstOrDefault();
-
 
         private object[] GetConstructorArguments(ConstructorInfo constructor)
         {

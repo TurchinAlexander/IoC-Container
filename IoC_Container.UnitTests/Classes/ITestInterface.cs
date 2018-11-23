@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IoC_Container.UnitTests
+namespace IoC_Container.UnitTests.Classes
 {
-    public class Class1
+    interface ITestInterface
     {
     }
 }

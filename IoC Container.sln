@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC Container", "IoC Container\IoC Container.csproj", "{8EC7DA11-14DE-4ED4-8B16-6353ECBF8140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckWork", "CheckWork\CheckWork.csproj", "{A395BD19-4A9D-4248-9020-37D4DB353395}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC_Container.UnitTests", "IoC_Container.UnitTests\IoC_Container.UnitTests.csproj", "{6D77BABE-2560-4C29-B9E7-88B7F7FB9E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{8EC7DA11-14DE-4ED4-8B16-6353ECBF8140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC7DA11-14DE-4ED4-8B16-6353ECBF8140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC7DA11-14DE-4ED4-8B16-6353ECBF8140}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A395BD19-4A9D-4248-9020-37D4DB353395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A395BD19-4A9D-4248-9020-37D4DB353395}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A395BD19-4A9D-4248-9020-37D4DB353395}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A395BD19-4A9D-4248-9020-37D4DB353395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D77BABE-2560-4C29-B9E7-88B7F7FB9E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D77BABE-2560-4C29-B9E7-88B7F7FB9E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D77BABE-2560-4C29-B9E7-88B7F7FB9E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D77BABE-2560-4C29-B9E7-88B7F7FB9E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
