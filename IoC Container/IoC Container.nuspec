@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>MPP.Lab3.IoCContainer</id>
-    <version>1.0.0.0</version>
-    <title>IoC Container</title>
-    <authors>Alexander Turchin.</authors>
-    <owners>AlexanderTurchin.</owners>
+    <version>1.0.1</version>
+    <title>IoCContainer</title>
+    <authors>Alexander Turchin</authors>
+    <owners>Alexander Turchin</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Simple Inversio of Control Container.</description>
-    <releaseNotes>It's just a first version.</releaseNotes>
+    <description>Just a simple IoC Container.</description>
+    <releaseNotes>Change initialization of instance of IoC container.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>DI IoC IoCContainer</tags>
   </metadata>
