@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IoC Container")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("IoC_Container")]
+[assembly: AssemblyDescription("Simple Inversion of Control Container")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Turchin")]
 [assembly: AssemblyProduct("IoC Container")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]

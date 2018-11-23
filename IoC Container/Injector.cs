@@ -83,7 +83,7 @@ namespace IoC_Container
 
         private object ResolveParameter(Type type)
         {
-            if (type.GetType().IsValueType)
+            if (type.IsValueType)
             {
                 return Activator.CreateInstance(type);
             }
